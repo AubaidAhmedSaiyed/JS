@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h2>Simon Says Game</h2>
+    <h3>Press any key to start</h3>
+    <!-- to arrange boxes in some manner we have put those indise div -->
+    <div class="btn-container"> 
+        <!-- we have make two div so that in each line we have two boxes 
+         how? - since display flex in appyl in parent div - means it applye in both line 1 and 2 but segregating 4 boxes in 2 -->
+        <div class="line1">
+            <div class="btn blue" type="button" text="1"></div>
+            <div class="btn purple" type="button" text="2"></div>
+        </div>
+
+        <div class="line2">
+            <div class="btn pink" type="button" text="3"></div>
+            <div class="btn green" type="button" text="4"></div>
+        </div>
+       
+    </div>
+    
+
+    <script src="app.js"></script>
+
+    
+</body>
+</html>

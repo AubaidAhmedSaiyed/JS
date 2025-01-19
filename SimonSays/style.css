@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+
+
+
+.blue{
+    height: 150px;
+    width: 150px;
+    border:3px solid black;
+    border-radius: 25px;
+    background-color:rgb(99, 99, 225) ;
+    margin: 20px;
+
+}
+.purple{
+    height: 150px;
+    width: 150px;
+    border:3px solid black;
+    border-radius: 25px;
+    margin: 20px;
+    background-color:rgb(189, 99, 225) ;
+}
+.pink{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border:3px solid black;
+    background-color:rgb(225, 99, 151) ;
+    border-radius: 25px;
+}
+.green{
+    height: 150px;
+    border-radius: 25px;
+    width: 150px;
+    margin: 20px;
+    border: 3px solid black;
+    background-color:rgb(99, 225, 177) ;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+
+
+}
+.flash{
+    background-color: aliceblue;
+    box-shadow: 10px 10px 10px rgba(33, 255, 225, 0.3);
+}
+
+.userflash{
+    background-color: rgb(21, 13, 2);
+}
