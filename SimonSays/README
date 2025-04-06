@@ -1,0 +1,18 @@
+Simon Says Game  - USING HTML - CSS - JAVASCRIPT
+
+
+I worked on a JavaScript-based interactive memory game where the goal is to match the system-generated sequence with user input. Here's how it works:
+
+✨ Core Features:
+- The game flashes a random sequence of colors from a predefined set (`blue`, `purple`, `pink`, `green`).
+- Users replicate the sequence by clicking corresponding buttons.
+- Each level increases in difficulty as the sequence grows longer.
+- If the user's sequence matches the system's, they level up. If not—Game Over! 🎮
+
+ How It Works:
+1. The sequence is stored in an array (`gameSeq`), while user inputs are tracked separately (`userSeq`).
+2. The system flashes colors using animations for visual feedback.
+3. User clicks are validated against the system's sequence step-by-step.
+4. A mismatch resets the game, while a match takes you to the next level with a longer sequence.
+
+💡 Tech Stack: Built purely with JavaScript,HTML, and CSS -  featuring DOM manipulation, event listeners, and basic animations.
